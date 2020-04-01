@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="sidebar.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+        <title>My Website</title>
+
+    </head>
+    <body>
+        <header>
+                    <!-- Navbar -->
+
+            <div class="container">
+                <nav>
+                    <li><a href="Website.html">Home</a></li>
+                    <li><a href="Background.html">Orign</a></li>
+                    <li><a href="Hobbies.html">Hobbies</a></li>
+                    <li><a href="Work.html">Work</a></li>
+                    <li><a href="sidebar.html">Ex</a></li>
+
+                </nav> 
+            </div>
+        </header>
+        <!-- Sidebar -->
+
+        <div id ="sidebar">
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=NC8zSuC-598"> Cricket Indoor</a></li>
+            </ul>
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=bBWODotZvVM"> Cricket Outdoor</a></li>
+            </ul>
+
+            <div id="sidebar-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <!-- Script -->
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+        <script>
+            $(document).ready(function(){
+                $('#sidebar-btn').click(function(){
+                    $('#sidebar').toggleClass('visible');
+                });         
+
+            });
+        </script>
+    </body>
+        <!-- content -->
+
+    <h1> Favorite Motor Vehicle</h1>
+    <div class="flex-container">
+        <div>Mustang</div>
+        <div>Lamboghni</div>
+        <div>Audi</div>  
+        <div>R1</div>  
+
+    </div>
+   
+
+</html>
